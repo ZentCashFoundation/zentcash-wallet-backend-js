@@ -278,13 +278,13 @@ export class Config implements IConfig {
      */
     public mixinLimits: MixinLimits = new MixinLimits([
         /* Height: 1, minMixin: 3, maxMixin: 3, defaultMixin: 3 */
-        new MixinLimit(1, 0, 100, 3),
+        new MixinLimit(1, 3, 3, 3),
 
         /* Height: 11000, minMixin: 0, maxMixin: 3, defaultMixin: 3 */
         new MixinLimit(11000, 0, 3, 3),
 
         /* Height: 150000, minMixin: 1, maxMixin: 3, defaultMixin: 3 */
-        new MixinLimit(150000, 0, 1, 3),
+        new MixinLimit(150000, 1, 3, 3),
     ], 3);
 
     /**
