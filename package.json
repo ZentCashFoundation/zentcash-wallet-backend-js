@@ -25,7 +25,7 @@
     "pbkdf2": "^3.0.17",
     "request": "^2.88.0",
     "request-promise-native": "^1.0.8",
-    "zentcash-utils": "https://github.com/ZentCashFoundation/zentcash-utils#v1.0.20",
+    "zentcash-utils": "^1.0.20",
     "typescript": "3.7.2"
   },
   "devDependencies": {
